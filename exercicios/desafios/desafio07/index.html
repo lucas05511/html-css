@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagem flexível</title>
+</head>
+<body>
+    <h1>imagem flexível</h1>
+    <p>você está vendo a imagem completa? experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência</p>
+    <picture>
+        <source srcset="imagens/outono-p.jpg" type="image/jpg" media="(max-width: 750px)">
+        <source srcset="imagens/outono-m.jpg" type="image/jpg" media="(max-width: 1050px)">
+        <img src="imagens/outono-g.jpg" alt="a imagem flexível funciona">
+    </picture>
+</body>
+</html>
